@@ -1,0 +1,14 @@
+/home/cloud/TestFolder/example_communicator/build/CMakeFiles/test.dir
+/home/cloud/TestFolder/example_communicator/build/CMakeFiles/edit_cache.dir
+/home/cloud/TestFolder/example_communicator/build/CMakeFiles/rebuild_cache.dir
+/home/cloud/TestFolder/example_communicator/build/src/CMakeFiles/my_example_library.dir
+/home/cloud/TestFolder/example_communicator/build/src/CMakeFiles/test.dir
+/home/cloud/TestFolder/example_communicator/build/src/CMakeFiles/edit_cache.dir
+/home/cloud/TestFolder/example_communicator/build/src/CMakeFiles/rebuild_cache.dir
+/home/cloud/TestFolder/example_communicator/build/tests/CMakeFiles/test.dir
+/home/cloud/TestFolder/example_communicator/build/tests/CMakeFiles/edit_cache.dir
+/home/cloud/TestFolder/example_communicator/build/tests/CMakeFiles/rebuild_cache.dir
+/home/cloud/TestFolder/example_communicator/build/tests/unit/CMakeFiles/unit_test_communicator_factory.dir
+/home/cloud/TestFolder/example_communicator/build/tests/unit/CMakeFiles/test.dir
+/home/cloud/TestFolder/example_communicator/build/tests/unit/CMakeFiles/edit_cache.dir
+/home/cloud/TestFolder/example_communicator/build/tests/unit/CMakeFiles/rebuild_cache.dir

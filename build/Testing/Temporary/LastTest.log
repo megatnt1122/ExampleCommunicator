@@ -1,0 +1,22 @@
+Start testing: Jun 21 08:33 EDT
+----------------------------------------------------------
+1/1 Testing: unit_test_communicator_factory
+1/1 Test: unit_test_communicator_factory
+Command: "/home/cloud/TestFolder/example_communicator/build/tests/unit/unit_test_communicator_factory"
+Directory: /home/cloud/TestFolder/example_communicator/build/tests/unit
+"unit_test_communicator_factory" start time: Jun 21 08:33 EDT
+Output:
+----------------------------------------------------------
+Running 1 test case...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"unit_test_communicator_factory" end time: Jun 21 08:33 EDT
+"unit_test_communicator_factory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 21 08:33 EDT
