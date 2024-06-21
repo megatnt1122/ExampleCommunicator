@@ -24,5 +24,5 @@ cd ./build/tests/unit
 
 Run the executable directly
 ```
-./unit_test_dog_factory
+./unit_test_communicator_factory
 ```
