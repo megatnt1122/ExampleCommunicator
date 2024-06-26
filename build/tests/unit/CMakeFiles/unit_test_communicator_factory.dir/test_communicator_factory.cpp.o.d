@@ -589,5 +589,5 @@ tests/unit/CMakeFiles/unit_test_communicator_factory.dir/test_communicator_facto
  /usr/include/boost/utility/value_init.hpp /usr/include/boost/swap.hpp \
  /usr/include/boost/core/swap.hpp \
  /usr/include/boost/test/tree/global_fixture.hpp \
- /home/cloud/TestFolder/example_communicator/include/public/Communicator_Factory.hpp \
+ /home/cloud/TestFolder/example_communicator/src/communicators/HTTP.hpp \
  /home/cloud/TestFolder/example_communicator/include/public/Communicator.hpp

@@ -1,25 +1,45 @@
-#define BOOST_TEST_MAIN
-#define BOOST_TEST_MODULE Communicator_Factory
+#define BOOST_TEST_MODULE HttpTests
 #include <boost/test/unit_test.hpp>
+#include "communicators/HTTP.hpp"
 
-#include "public/Communicator_Factory.hpp"
-#include "public/Communicator.hpp"
+BOOST_AUTO_TEST_SUITE(HttpTests)
 
-using namespace my_examples;
+BOOST_AUTO_TEST_CASE(TestHttpGet) {
+    // Example URL for testing
+    std::string getUrl = "https://jsonplaceholder.typicode.com/posts/1";
 
-BOOST_AUTO_TEST_SUITE(CommunicatorFactoryTest)
-	
-	BOOST_AUTO_TEST_CASE(testing_factory_creation) 
-	{
+    // Create an instance of Http
+    my_examples::Http http;
 
-  		CommunicatorFactory communicator_factory;
+    // Perform HTTP GET request
+    std::string response = http.get(getUrl);
 
-  		std::unique_ptr<Communicator> communicator_http = communicator_factory.create(COMMUNICATOR_TYPE::HTTP);
+    // Check if response is not empty (basic validation)
+    BOOST_REQUIRE(!response.empty());
 
-  		BOOST_CHECK(communicator_http->getType() == COMMUNICATOR_TYPE::HTTP);
-	}
+    // Print the response (optional)
+    BOOST_TEST_MESSAGE("GET Response:\n" << response);
+}
 
+BOOST_AUTO_TEST_CASE(TestHttpPost) {
+    // Example URL for testing
+    std::string postUrl = "https://jsonplaceholder.typicode.com/posts";
+
+    // Example data for POST request
+    std::string postData = R"({"title":"foo","body":"bar","userId":1})";
+
+    // Create an instance of Http
+    my_examples::Http http;
+
+    // Perform HTTP POST request
+    std::string response = http.post(postUrl, postData);
+
+    // Check if response is not empty (basic validation)
+    BOOST_REQUIRE(!response.empty());
+
+    // Print the response (optional)
+    BOOST_TEST_MESSAGE("POST Response:\n" << response);
+}
 
 BOOST_AUTO_TEST_SUITE_END()
-
 

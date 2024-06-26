@@ -108,6 +108,7 @@ my_example_library_EXTERNAL_OBJECTS =
 src/libmy_example_library.so: src/CMakeFiles/my_example_library.dir/Communicator_Factory.cpp.o
 src/libmy_example_library.so: src/CMakeFiles/my_example_library.dir/communicators/HTTP.cpp.o
 src/libmy_example_library.so: src/CMakeFiles/my_example_library.dir/build.make
+src/libmy_example_library.so: /usr/lib/x86_64-linux-gnu/libcurl.so
 src/libmy_example_library.so: src/CMakeFiles/my_example_library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cloud/TestFolder/example_communicator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libmy_example_library.so"
 	cd /home/cloud/TestFolder/example_communicator/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_example_library.dir/link.txt --verbose=$(VERBOSE)

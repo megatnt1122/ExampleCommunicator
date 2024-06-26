@@ -1,22 +1,24 @@
-Start testing: Jun 21 08:33 EDT
+Start testing: Jun 26 15:11 EDT
 ----------------------------------------------------------
 1/1 Testing: unit_test_communicator_factory
 1/1 Test: unit_test_communicator_factory
 Command: "/home/cloud/TestFolder/example_communicator/build/tests/unit/unit_test_communicator_factory"
 Directory: /home/cloud/TestFolder/example_communicator/build/tests/unit
-"unit_test_communicator_factory" start time: Jun 21 08:33 EDT
+"unit_test_communicator_factory" start time: Jun 26 15:11 EDT
 Output:
 ----------------------------------------------------------
-Running 1 test case...
+Running 2 test cases...
+unknown location(0): [4;31;49mfatal error: in "HttpTests/TestHttpGet": memory access violation at address: 0xe8b28040: no mapping at fault address[0;39;49m
+/home/cloud/TestFolder/example_communicator/tests/unit/test_communicator_factory.cpp(7): [1;36;49mlast checkpoint: "TestHttpGet" test entry[0;39;49m
 
-[1;32;49m*** No errors detected
+[1;31;49m*** 1 failure is detected in the test module "HttpTests"
 [0;39;49m
 <end of output>
-Test time =   0.01 sec
+Test time =   0.18 sec
 ----------------------------------------------------------
-Test Passed.
-"unit_test_communicator_factory" end time: Jun 21 08:33 EDT
+Test Failed.
+"unit_test_communicator_factory" end time: Jun 26 15:11 EDT
 "unit_test_communicator_factory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 21 08:33 EDT
+End testing: Jun 26 15:11 EDT

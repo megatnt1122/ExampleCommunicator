@@ -98,6 +98,7 @@ tests/unit/unit_test_communicator_factory: /usr/lib/x86_64-linux-gnu/libboost_sy
 tests/unit/unit_test_communicator_factory: /usr/lib/x86_64-linux-gnu/libboost_filesystem.a
 tests/unit/unit_test_communicator_factory: /usr/lib/x86_64-linux-gnu/libboost_program_options.a
 tests/unit/unit_test_communicator_factory: src/libmy_example_library.so
+tests/unit/unit_test_communicator_factory: /usr/lib/x86_64-linux-gnu/libcurl.so
 tests/unit/unit_test_communicator_factory: tests/unit/CMakeFiles/unit_test_communicator_factory.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cloud/TestFolder/example_communicator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable unit_test_communicator_factory"
 	cd /home/cloud/TestFolder/example_communicator/build/tests/unit && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unit_test_communicator_factory.dir/link.txt --verbose=$(VERBOSE)
